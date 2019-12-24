@@ -8,9 +8,7 @@ public class OpenBrowser {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		//System.setProperty("webdriver.chrome.driver", "C://SWM//apps//chromedriver_win//chromedriver.exe");
-		//System.setProperty("webdriver.chrome.driver", "C://Users//vartika.k//Downloads//chromedriver_win32 (8)//chromedriver.exe");
-		
+			
 				System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/src/test/resources/chromedriver.exe");
 				WebDriver driver = new ChromeDriver();
 				
